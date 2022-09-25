@@ -43,7 +43,7 @@ public class HbrPaginationApplication {
 		Transaction transaction = session.beginTransaction();
 		
 		for (int i = 0; i < 50; i++) {
-			session.save(new Employee(i+1, "Employee" + i));
+			session.save(new Employee("Employee" + i));
 		}
 		
 		transaction.commit();

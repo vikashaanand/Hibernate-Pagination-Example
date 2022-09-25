@@ -20,9 +20,8 @@ public class Employee {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Employee(int e_id, String name) {
+	public Employee(String name) {
 		super();
-		this.e_id = e_id;
 		this.name = name;
 	}
 
